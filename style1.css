@@ -1,0 +1,106 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-image: url(images/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  color: #333;
+  padding: 20px;
+  
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #8b0000;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #8b0000;
+  padding-bottom: 10px;
+    font-family: 'Georgia', serif;
+
+}
+
+/* Paragraph styles */
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+    color: #555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.8;
+    text-indent: 50px;
+    background-color: #fff0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px redgba(0, 0, 0, 0.1   );
+    border: 1px solid #dc3a3a;
+
+   
+}
+
+/* Image and video container */
+.media {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+    gap: 20px;
+
+}
+
+.media img {
+  max-width: 300px;
+  height: auto;
+  border: 3px solid #8b0000;
+  border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.media iframe {
+  width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* Dance form caption */
+.caption {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+    color: red;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    font-style: italic;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0,0, 0.1);
+    border: 1px solid #dc3a3a;
+
+
+}
+p:hover
+{
+    
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.empty-box {
+    display: none;
+}
+
